@@ -18,7 +18,7 @@
 
 ## カウントの仕組み
 
-市販の腕立て伏せカウンターアプリ([100 Push-Ups](https://play.google.com/store/apps/details?id=app.foxyfitness.pushups))がカメラベースで計測していることを参考に、同様の方式を採用しています。ただし実装はゼロから書き起こしたオリジナルで、ARCoreの顔距離推定ではなく、ML Kit Face Detectionで検出した顔のバウンディングボックスの高さの変化を使います。直近数秒の動的レンジに対する相対位置としてこの値を捉え、ヒステリシス付きの状態遷移でカウントすることで、体格差や設置距離のばらつきを吸収しています(詳細は [`RepCounter.kt`](app/src/main/java/com/tatu/workout/pushup/RepCounter.kt))。
+カメラベースの計測方式を採用しています。ML Kit Face Detectionで検出した顔のバウンディングボックスの高さの変化を使い、直近数秒の動的レンジに対する相対位置としてこの値を捉え、ヒステリシス付きの状態遷移でカウントすることで、体格差や設置距離のばらつきを吸収しています(詳細は [`RepCounter.kt`](app/src/main/java/com/tatu/workout/pushup/RepCounter.kt))。
 
 ## 技術スタック
 
