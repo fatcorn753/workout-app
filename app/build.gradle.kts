@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.tatu.workout"
+    namespace = "com.fatcorn753.workout"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.tatu.workout"
+        applicationId = "com.fatcorn753.workout"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

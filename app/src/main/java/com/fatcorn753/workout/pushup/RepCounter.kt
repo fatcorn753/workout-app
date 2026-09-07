@@ -1,4 +1,4 @@
-package com.tatu.workout.pushup
+package com.fatcorn753.workout.pushup
 
 /**
  * 顔のバウンディングボックスの高さ(px)の推移から腕立て伏せの往復をカウントする。

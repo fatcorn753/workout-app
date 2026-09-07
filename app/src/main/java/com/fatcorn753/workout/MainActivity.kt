@@ -1,4 +1,4 @@
-package com.tatu.workout
+package com.fatcorn753.workout
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,10 +10,10 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import com.tatu.workout.pushup.PushUpCounterScreen
-import com.tatu.workout.ui.HomeScreen
-import com.tatu.workout.ui.RecordsScreen
-import com.tatu.workout.ui.theme.WorkoutTheme
+import com.fatcorn753.workout.pushup.PushUpCounterScreen
+import com.fatcorn753.workout.ui.HomeScreen
+import com.fatcorn753.workout.ui.RecordsScreen
+import com.fatcorn753.workout.ui.theme.WorkoutTheme
 
 private enum class Screen { HOME, COUNTER, RECORDS }
 

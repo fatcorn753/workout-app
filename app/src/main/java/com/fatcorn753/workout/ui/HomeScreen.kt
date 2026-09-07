@@ -1,4 +1,4 @@
-package com.tatu.workout.ui
+package com.fatcorn753.workout.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

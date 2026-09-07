@@ -1,4 +1,4 @@
-package com.tatu.workout.data
+package com.fatcorn753.workout.data
 
 import kotlinx.serialization.Serializable
 import java.time.Instant

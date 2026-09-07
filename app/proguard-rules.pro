@@ -1,9 +1,9 @@
 # kotlinx.serialization
 -keepattributes *Annotation*, InnerClasses
 -dontnote kotlinx.serialization.**
--keepclassmembers class com.tatu.workout.data.** {
+-keepclassmembers class com.fatcorn753.workout.data.** {
     *** Companion;
 }
--keepclasseswithmembers class com.tatu.workout.data.** {
+-keepclasseswithmembers class com.fatcorn753.workout.data.** {
     kotlinx.serialization.KSerializer serializer(...);
 }

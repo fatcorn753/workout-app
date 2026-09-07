@@ -1,4 +1,4 @@
-package com.tatu.workout.ui
+package com.fatcorn753.workout.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -49,10 +49,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
-import com.tatu.workout.data.PushUpSession
-import com.tatu.workout.data.WorkoutRepository
-import com.tatu.workout.data.formatSessionDuration
-import com.tatu.workout.data.localDate
+import com.fatcorn753.workout.data.PushUpSession
+import com.fatcorn753.workout.data.WorkoutRepository
+import com.fatcorn753.workout.data.formatSessionDuration
+import com.fatcorn753.workout.data.localDate
 import java.text.SimpleDateFormat
 import java.time.LocalDate
 import java.time.YearMonth

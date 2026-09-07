@@ -1,4 +1,4 @@
-package com.tatu.workout.pushup
+package com.fatcorn753.workout.pushup
 
 import android.Manifest
 import android.content.Context
@@ -49,7 +49,7 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.tatu.workout.data.formatSessionDuration
+import com.fatcorn753.workout.data.formatSessionDuration
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

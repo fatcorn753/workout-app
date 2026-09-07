@@ -1,4 +1,4 @@
-package com.tatu.workout.pushup
+package com.fatcorn753.workout.pushup
 
 import android.app.Application
 import androidx.compose.runtime.getValue
@@ -6,7 +6,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.tatu.workout.data.WorkoutRepository
+import com.fatcorn753.workout.data.WorkoutRepository
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive

@@ -1,4 +1,4 @@
-package com.tatu.workout.pushup
+package com.fatcorn753.workout.pushup
 
 import androidx.annotation.OptIn
 import androidx.camera.core.ExperimentalGetImage
