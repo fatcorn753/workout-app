@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- バーベル：ワークアウトのモチーフ -->
+    <path
+        android:fillColor="#9CCC65"
+        android:pathData="M38,50h32v8h-32z" />
+    <path
+        android:fillColor="#9CCC65"
+        android:pathData="M30,36 H36 A4,4 0 0 1 40,40 V68 A4,4 0 0 1 36,72 H30 A4,4 0 0 1 26,68 V40 A4,4 0 0 1 30,36 Z" />
+    <path
+        android:fillColor="#9CCC65"
+        android:pathData="M72,36 H78 A4,4 0 0 1 82,40 V68 A4,4 0 0 1 78,72 H72 A4,4 0 0 1 68,68 V40 A4,4 0 0 1 72,36 Z" />
+    <path
+        android:fillColor="#9CCC65"
+        android:pathData="M20,44 H24 A2,2 0 0 1 26,46 V62 A2,2 0 0 1 24,64 H20 A2,2 0 0 1 18,62 V46 A2,2 0 0 1 20,44 Z" />
+    <path
+        android:fillColor="#9CCC65"
+        android:pathData="M84,44 H88 A2,2 0 0 1 90,46 V62 A2,2 0 0 1 88,64 H84 A2,2 0 0 1 82,62 V46 A2,2 0 0 1 84,44 Z" />
+</vector>
